@@ -1,0 +1,13 @@
+New Repository for kali linux - 2018
+
+deb https://mirrors.ocf.berkeley.edu/kali kali-rolling main contrib non-free 
+# For source package access, uncomment the following line 
+# deb-src https://mirrors.ocf.berkeley.edu/kali kali-rolling main contrib non-free
+
+
+
+#
+Note that if you haven’t updated your Kali installation in some time (tsk2), you will like receive a GPG error about the repository key being expired (ED444FF07D8D0BF6). Fortunately, this issue is quickly resolved by running the following as root:
+
+
+wget -q -O - https://archive.kali.org/archive-key.asc | apt-key add
