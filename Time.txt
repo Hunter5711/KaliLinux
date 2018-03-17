@@ -1,0 +1,24 @@
+################ Updating Time In Kali linux Through Terminal ##################
+
+Type the following Command In your Teeminal:
+
+apt-get install ntp ntpdate ntp-server
+########  or just type 
+
+apt-get install ntp
+
+
+### Restart the server ###
+
+/etc/init.d/ntp restart 
+
+### Type ##
+ntpq -p 
+
+
+############ For Date ###
+apt-get install ntpdate
+
+ntpdate <Stratum 1 server>
+
+
