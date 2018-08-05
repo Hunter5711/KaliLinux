@@ -1,0 +1,16 @@
+############@@@@@@@@@@@@@@  When ur none of the gui applicatons are working
+@@@@@@@@@@@@@
+
+e.g  Network  manager is not opening
+     Setting is not opeining
+ur unable to change the Desktop background...
+#################################
+
+
+Solution is ur gdm is missing
+
+
+use this command to install:
+
+
+apt install gnome gdm3
